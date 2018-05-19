@@ -5,4 +5,7 @@ A single @SpringBootApplication annotation can be used to enable those three fea
 @Configuration: allow to register extra beans in the context or import additional configuration classes
 The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration, and @ComponentScan
 
-if you can use any of these separately if you don't want to use @SpringBootApplication
+if you can use any of these separately if you don't want to use @SpringBootApplication.
+
+@EnableAutoConfiguration 
+Auto-configuration attempts to deduce which beans a user might need. For example, if HSQLDB is on the classpath, and the user has not configured any database connections, then they probably want an in-memory database to be defined. Auto-configuration will always back away as the user starts to define their own beansAuto-configuration attempts to deduce which beans a user might need. For example, if HSQLDB is on the classpath, and the user has not configured any database connections, then they probably want an in-memory database to be defined. Auto-configuration will always back away as the user starts to define their own beans
