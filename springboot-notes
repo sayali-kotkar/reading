@@ -1,3 +1,7 @@
+Springboot
+   - eases development process
+   - prefers convention over configuration
+   
 A single @SpringBootApplication annotation can be used to enable those three features, that is:
 
 @EnableAutoConfiguration: enable Spring Boot’s auto-configuration mechanism
@@ -9,3 +13,7 @@ if you can use any of these separately if you don't want to use @SpringBootAppli
 
 @EnableAutoConfiguration 
 Auto-configuration attempts to deduce which beans a user might need. For example, if HSQLDB is on the classpath, and the user has not configured any database connections, then they probably want an in-memory database to be defined. Auto-configuration will always back away as the user starts to define their own beansAuto-configuration attempts to deduce which beans a user might need. For example, if HSQLDB is on the classpath, and the user has not configured any database connections, then they probably want an in-memory database to be defined. Auto-configuration will always back away as the user starts to define their own beans
+
+Spring Boot uses the way you define beans to determine how to automatically configure itself. For example, if you annotate your JPA beans with @Entity, then Spring Boot will automatically configure JPA such that you do not need a persistence.xml file
+
+- Uber jars
