@@ -17,3 +17,19 @@ Auto-configuration attempts to deduce which beans a user might need. For example
 Spring Boot uses the way you define beans to determine how to automatically configure itself. For example, if you annotate your JPA beans with @Entity, then Spring Boot will automatically configure JPA such that you do not need a persistence.xml file
 
 - Uber jars
+
+Spring boot opinions
+it's important to explain how Spring Boot uses a starter like spring-boot-starter-web to form its configuration opinions.
+
+The example application, HelloSpringBoot, uses Spring Boot's web application starter, spring-boot-starter-web. Based on this starter, Spring Boot has formed the following opinions about the application:
+
+Tomcat embedded web server container
+Hibernate for Object-Relational Mapping (ORM)
+Apache Jackson for JSON binding
+Spring MVC for the REST framework
+Talk about opinionated! But in Spring Boot's defense, these are the most popular web application defaults—at least I know I use them all the time.
+
+But remember how I said Spring Boot is customizable? If you want to use a different technology stack, you can easily override Spring Boot's defaults.
+
+Referenecs:
+https://www.ibm.com/developerworks/library/j-spring-boot-basics-perry/index.html
