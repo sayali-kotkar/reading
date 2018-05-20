@@ -1,0 +1,5 @@
+why jar is prefered over war
+why should we not use field injection
+persistence context and entity manager
+DB structure in project . how to create complex queries using datajpa
+entity objects should be immutable to avoid transactional issues . but what if don't have data at one. how should that be handled
