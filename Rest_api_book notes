@@ -1,1 +1,13 @@
 
+Notes - Api design by Matthias biehl 
+
+Four groups of design desicions
+1. Archietctural design designs     
+2. API Frontend design decisions
+3. API Backend design decisions
+4. Non functional design decisions 
+
+OpenAPI/Swagger or RAML
+ - these are api description languages
+ 
+Consumer Oriented API design: APIs are product 
