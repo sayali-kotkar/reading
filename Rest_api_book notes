@@ -1,8 +1,12 @@
 
 Notes - Api design by Matthias biehl 
+1.4 What is API design ?
+API design is very important for aking product better in some way, eg providing more functionality, provide better quality or better user eperience
 
 Four groups of design desicions
-1. Archietctural design designs     
+1. Archietctural design designs 
+    -design decisions related to arcihtectural issues 
+    e.g SOAP or RESt
 2. API Frontend design decisions
 3. API Backend design decisions
 4. Non functional design decisions 
