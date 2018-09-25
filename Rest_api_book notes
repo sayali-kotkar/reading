@@ -19,4 +19,11 @@ Four groups of design desicions
 OpenAPI/Swagger or RAML
  - these are api description languages
  
+ 1.7 why restful apis 
+       - api are products of their own  
+       - REST akes easy to create a great developer experience
+1.8 Why openapi, swagger or raml ?
+       - api descriptions helps to write down api design
+       - frontend design decisions and architectural design designs can be captured by API desvription language
+       - can be used for code generation of the api, code generation of api clients, generation of docusmentation, generation of tests.
 Consumer Oriented API design: APIs are product 
