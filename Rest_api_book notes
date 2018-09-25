@@ -8,9 +8,14 @@ Four groups of design desicions
     -design decisions related to arcihtectural issues 
     e.g SOAP or RESt
 2. API Frontend design decisions
+  - how does URI look?
+  -Are parameters passed in form of query parameters or path parameters
+  - which headers and status codes should be used
 3. API Backend design decisions
+   - connection between api and backend
+   - design decisions regarding integration, transformation, aggregation, security and error handling
 4. Non functional design decisions 
-
+       - security, performance, availability and evolvability
 OpenAPI/Swagger or RAML
  - these are api description languages
  
